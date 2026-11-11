@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.csv
+!tests/fixtures/*.csv
+out/
+.venv/
+.DS_Store
+.idea/
+.vscode/
+!data/snapshot/*.csv
+.runtime/
