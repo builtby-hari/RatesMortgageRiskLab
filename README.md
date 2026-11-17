@@ -1,5 +1,7 @@
 # Rates & Mortgage Risk Lab
 
+[![tests](https://github.com/builtby-hari/RatesMortgageRiskLab/actions/workflows/tests.yml/badge.svg)](https://github.com/builtby-hari/RatesMortgageRiskLab/actions/workflows/tests.yml) ![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-blue) [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+
 When rates move, a bank feels it in four places: what borrowers pay for a mortgage, how many fall behind, what its mortgage bonds are worth, and what its balance sheet is worth. This repo models each one in Python, using public Federal Reserve (FRED) data where it exists.
 
 Two results up front. On real data, mortgage rates sat **222 bp** above the 10-year Treasury on 15 Oct 2026, wider than 85% of weeks since 1971. And on a sample mortgage bond, convexity flips from **+62 to −282** once homeowners are allowed to refinance.
